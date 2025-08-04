@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+     build:
+	    commands:
+	           -echo : Zipping the application..."
+			   -zip -r app.zip adv index.html
+			   
+artifacts:
+   files:
+    - app.zip
